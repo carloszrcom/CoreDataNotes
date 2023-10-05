@@ -20,9 +20,16 @@ class AddViewController: UIViewController {
         }
     }
     
-    // MARK: - Lidecycle
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    // MARK: - Actions
+    @IBAction func addNoteButtonTapped(_ sender: Any) {
+        // present view
+        let addNoteViewController = AddNoteViewController(nibName: "AddNoteViewController", bundle: nil)
+        present(addNoteViewController, animated: true)
     }
 }
 

@@ -20,15 +20,25 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mj9-Kv-p5e">
-                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <rect key="frame" x="0.0" y="59" width="393" height="559"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWm-el-PtF">
+                    <rect key="frame" x="140.66666666666666" y="688" width="112" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Añadir nota"/>
+                    <connections>
+                        <action selector="addNoteButtonTapped:" destination="-1" eventType="touchUpInside" id="SU1-MP-bdh"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.85098039219999999" green="0.94509803920000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Mj9-Kv-p5e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2Xb-96-oSV"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Mj9-Kv-p5e" secondAttribute="bottom" id="5dP-2L-Veq"/>
+                <constraint firstItem="sWm-el-PtF" firstAttribute="top" secondItem="Mj9-Kv-p5e" secondAttribute="bottom" constant="70" id="2px-sO-J1G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Mj9-Kv-p5e" secondAttribute="bottom" constant="200" id="5dP-2L-Veq"/>
+                <constraint firstItem="sWm-el-PtF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6yf-H3-miP"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Mj9-Kv-p5e" secondAttribute="trailing" id="KYu-gk-rSW"/>
                 <constraint firstItem="Mj9-Kv-p5e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Oue-a7-8z9"/>
             </constraints>
