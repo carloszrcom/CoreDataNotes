@@ -8,6 +8,8 @@
 import Foundation
 
 public struct Constant {
+    
     // MARK: - Entities
+    
     static let note = "Note"
 }

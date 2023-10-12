@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Galiani.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FCD496D067410FC6581C75F47507A4FA1ECD06A5</string>
+				<key>dateExpires</key>
+				<string>13/7/24</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2ZK9UMCA7V.org.identi.Galiani</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2ZK9UMCA7V</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Galiani.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>9bc22076-c654-4072-8047-d2b5902eef5b</string>
+				<key>dateExpires</key>
+				<string>5/10/24</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2ZK9UMCA7V</string>
+				<key>name</key>
+				<string>Mill Applications Company SA</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

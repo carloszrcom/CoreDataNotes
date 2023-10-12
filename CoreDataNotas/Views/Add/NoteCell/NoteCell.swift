@@ -8,7 +8,15 @@
 import UIKit
 
 class NoteCell: UITableViewCell {
+    
+    // MARK: - Outlets
+    
+    @IBOutlet weak var noteTitle: UILabel!
+    @IBOutlet weak var noteDate: UILabel!
+    @IBOutlet weak var noteDescription: UITextView!
+    
     // MARK: - Properties
+    
     class var reuseIdentifier: String {
         return String(describing: NoteCell.self)
     }
@@ -18,6 +26,7 @@ class NoteCell: UITableViewCell {
     }
 
     // MARK: - Init
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
